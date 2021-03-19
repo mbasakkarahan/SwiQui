@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		138C2FC625A2208700BAD626 /* NasilOynarimViewCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C2FC525A2208700BAD626 /* NasilOynarimViewCon.swift */; };
+		138C2FCE25A233E300BAD626 /* SorularViewCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C2FCD25A233E300BAD626 /* SorularViewCon.swift */; };
+		138C2FD325A26F9900BAD626 /* SonucViewCon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138C2FD225A26F9900BAD626 /* SonucViewCon.swift */; };
+		13A67FE425A3A38000157C61 /* Cevaplar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A67FE325A3A38000157C61 /* Cevaplar.swift */; };
+		13A67FE925A3A40800157C61 /* Sorular.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A67FE825A3A40800157C61 /* Sorular.swift */; };
+		13A67FEF25A3A64E00157C61 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 13A67FEE25A3A64800157C61 /* libsqlite3.tbd */; };
+		13A67FFF25A3A6A900157C61 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A67FF625A3A6A700157C61 /* FMResultSet.m */; };
+		13A6800025A3A6A900157C61 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A67FF725A3A6A800157C61 /* FMDatabaseAdditions.m */; };
+		13A6800125A3A6A900157C61 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A67FFB25A3A6A800157C61 /* FMDatabase.m */; };
+		13A6800225A3A6A900157C61 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A67FFD25A3A6A900157C61 /* FMDatabasePool.m */; };
+		13A6800325A3A6A900157C61 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 13A67FFE25A3A6A900157C61 /* FMDatabaseQueue.m */; };
+		13A6801025A3A94E00157C61 /* SorularDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6800F25A3A94E00157C61 /* SorularDao.swift */; };
+		13A6801525A3B23400157C61 /* CevaplarDao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A6801425A3B23400157C61 /* CevaplarDao.swift */; };
+		13A6802025A3B98800157C61 /* quizdb.db in Resources */ = {isa = PBXBuildFile; fileRef = 13A6801F25A3B98700157C61 /* quizdb.db */; };
+		13CFA60B25A2041B005CF592 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFA60A25A2041B005CF592 /* AppDelegate.swift */; };
+		13CFA60D25A2041B005CF592 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFA60C25A2041B005CF592 /* SceneDelegate.swift */; };
+		13CFA60F25A2041B005CF592 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFA60E25A2041B005CF592 /* ViewController.swift */; };
+		13CFA61225A2041B005CF592 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CFA61025A2041B005CF592 /* Main.storyboard */; };
+		13CFA61425A2041E005CF592 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13CFA61325A2041E005CF592 /* Assets.xcassets */; };
+		13CFA61725A2041E005CF592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13CFA61525A2041E005CF592 /* LaunchScreen.storyboard */; };
+		13CFA62225A2041E005CF592 /* SwiQuiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFA62125A2041E005CF592 /* SwiQuiTests.swift */; };
+		13CFA62D25A2041E005CF592 /* SwiQuiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CFA62C25A2041E005CF592 /* SwiQuiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13CFA61E25A2041E005CF592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CFA5FF25A2041B005CF592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CFA60625A2041B005CF592;
+			remoteInfo = SwiQui;
+		};
+		13CFA62925A2041E005CF592 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13CFA5FF25A2041B005CF592 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13CFA60625A2041B005CF592;
+			remoteInfo = SwiQui;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		138C2FC525A2208700BAD626 /* NasilOynarimViewCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasilOynarimViewCon.swift; sourceTree = "<group>"; };
+		138C2FCD25A233E300BAD626 /* SorularViewCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorularViewCon.swift; sourceTree = "<group>"; };
+		138C2FD225A26F9900BAD626 /* SonucViewCon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SonucViewCon.swift; sourceTree = "<group>"; };
+		13A67FE325A3A38000157C61 /* Cevaplar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cevaplar.swift; sourceTree = "<group>"; };
+		13A67FE825A3A40800157C61 /* Sorular.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sorular.swift; sourceTree = "<group>"; };
+		13A67FEE25A3A64800157C61 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		13A67FF325A3A6A600157C61 /* SwiQui-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwiQui-Bridging-Header.h"; sourceTree = "<group>"; };
+		13A67FF425A3A6A700157C61 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		13A67FF525A3A6A700157C61 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		13A67FF625A3A6A700157C61 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		13A67FF725A3A6A800157C61 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		13A67FF825A3A6A800157C61 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		13A67FF925A3A6A800157C61 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		13A67FFA25A3A6A800157C61 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		13A67FFB25A3A6A800157C61 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		13A67FFC25A3A6A900157C61 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		13A67FFD25A3A6A900157C61 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		13A67FFE25A3A6A900157C61 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		13A6800F25A3A94E00157C61 /* SorularDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SorularDao.swift; sourceTree = "<group>"; };
+		13A6801425A3B23400157C61 /* CevaplarDao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CevaplarDao.swift; sourceTree = "<group>"; };
+		13A6801F25A3B98700157C61 /* quizdb.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = quizdb.db; sourceTree = "<group>"; };
+		13CFA60725A2041B005CF592 /* SwiQui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiQui.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CFA60A25A2041B005CF592 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13CFA60C25A2041B005CF592 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13CFA60E25A2041B005CF592 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13CFA61125A2041B005CF592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13CFA61325A2041E005CF592 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13CFA61625A2041E005CF592 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13CFA61825A2041E005CF592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13CFA61D25A2041E005CF592 /* SwiQuiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiQuiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CFA62125A2041E005CF592 /* SwiQuiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiQuiTests.swift; sourceTree = "<group>"; };
+		13CFA62325A2041E005CF592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13CFA62825A2041E005CF592 /* SwiQuiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiQuiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13CFA62C25A2041E005CF592 /* SwiQuiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiQuiUITests.swift; sourceTree = "<group>"; };
+		13CFA62E25A2041E005CF592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13CFA60425A2041B005CF592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A67FEF25A3A64E00157C61 /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CFA61A25A2041E005CF592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CFA62525A2041E005CF592 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13A67FED25A3A64800157C61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				13A67FEE25A3A64800157C61 /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13CFA5FE25A2041B005CF592 = {
+			isa = PBXGroup;
+			children = (
+				13CFA60925A2041B005CF592 /* SwiQui */,
+				13CFA62025A2041E005CF592 /* SwiQuiTests */,
+				13CFA62B25A2041E005CF592 /* SwiQuiUITests */,
+				13CFA60825A2041B005CF592 /* Products */,
+				13A67FED25A3A64800157C61 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13CFA60825A2041B005CF592 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13CFA60725A2041B005CF592 /* SwiQui.app */,
+				13CFA61D25A2041E005CF592 /* SwiQuiTests.xctest */,
+				13CFA62825A2041E005CF592 /* SwiQuiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13CFA60925A2041B005CF592 /* SwiQui */ = {
+			isa = PBXGroup;
+			children = (
+				13A6801F25A3B98700157C61 /* quizdb.db */,
+				13CFA60A25A2041B005CF592 /* AppDelegate.swift */,
+				13CFA60C25A2041B005CF592 /* SceneDelegate.swift */,
+				13CFA60E25A2041B005CF592 /* ViewController.swift */,
+				13CFA61025A2041B005CF592 /* Main.storyboard */,
+				138C2FD225A26F9900BAD626 /* SonucViewCon.swift */,
+				138C2FCD25A233E300BAD626 /* SorularViewCon.swift */,
+				138C2FC525A2208700BAD626 /* NasilOynarimViewCon.swift */,
+				13CFA61325A2041E005CF592 /* Assets.xcassets */,
+				13CFA61525A2041E005CF592 /* LaunchScreen.storyboard */,
+				13CFA61825A2041E005CF592 /* Info.plist */,
+				13A67FE325A3A38000157C61 /* Cevaplar.swift */,
+				13A67FE825A3A40800157C61 /* Sorular.swift */,
+				13A67FFA25A3A6A800157C61 /* FMDatabase.h */,
+				13A67FFB25A3A6A800157C61 /* FMDatabase.m */,
+				13A67FF525A3A6A700157C61 /* FMDatabaseAdditions.h */,
+				13A67FF725A3A6A800157C61 /* FMDatabaseAdditions.m */,
+				13A67FFC25A3A6A900157C61 /* FMDatabasePool.h */,
+				13A67FFD25A3A6A900157C61 /* FMDatabasePool.m */,
+				13A67FF925A3A6A800157C61 /* FMDatabaseQueue.h */,
+				13A67FFE25A3A6A900157C61 /* FMDatabaseQueue.m */,
+				13A67FF425A3A6A700157C61 /* FMDB.h */,
+				13A67FF825A3A6A800157C61 /* FMResultSet.h */,
+				13A67FF625A3A6A700157C61 /* FMResultSet.m */,
+				13A67FF325A3A6A600157C61 /* SwiQui-Bridging-Header.h */,
+				13A6800F25A3A94E00157C61 /* SorularDao.swift */,
+				13A6801425A3B23400157C61 /* CevaplarDao.swift */,
+			);
+			path = SwiQui;
+			sourceTree = "<group>";
+		};
+		13CFA62025A2041E005CF592 /* SwiQuiTests */ = {
+			isa = PBXGroup;
+			children = (
+				13CFA62125A2041E005CF592 /* SwiQuiTests.swift */,
+				13CFA62325A2041E005CF592 /* Info.plist */,
+			);
+			path = SwiQuiTests;
+			sourceTree = "<group>";
+		};
+		13CFA62B25A2041E005CF592 /* SwiQuiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13CFA62C25A2041E005CF592 /* SwiQuiUITests.swift */,
+				13CFA62E25A2041E005CF592 /* Info.plist */,
+			);
+			path = SwiQuiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13CFA60625A2041B005CF592 /* SwiQui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CFA63125A2041E005CF592 /* Build configuration list for PBXNativeTarget "SwiQui" */;
+			buildPhases = (
+				13CFA60325A2041B005CF592 /* Sources */,
+				13CFA60425A2041B005CF592 /* Frameworks */,
+				13CFA60525A2041B005CF592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiQui;
+			productName = SwiQui;
+			productReference = 13CFA60725A2041B005CF592 /* SwiQui.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13CFA61C25A2041E005CF592 /* SwiQuiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CFA63425A2041E005CF592 /* Build configuration list for PBXNativeTarget "SwiQuiTests" */;
+			buildPhases = (
+				13CFA61925A2041E005CF592 /* Sources */,
+				13CFA61A25A2041E005CF592 /* Frameworks */,
+				13CFA61B25A2041E005CF592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CFA61F25A2041E005CF592 /* PBXTargetDependency */,
+			);
+			name = SwiQuiTests;
+			productName = SwiQuiTests;
+			productReference = 13CFA61D25A2041E005CF592 /* SwiQuiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13CFA62725A2041E005CF592 /* SwiQuiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13CFA63725A2041E005CF592 /* Build configuration list for PBXNativeTarget "SwiQuiUITests" */;
+			buildPhases = (
+				13CFA62425A2041E005CF592 /* Sources */,
+				13CFA62525A2041E005CF592 /* Frameworks */,
+				13CFA62625A2041E005CF592 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13CFA62A25A2041E005CF592 /* PBXTargetDependency */,
+			);
+			name = SwiQuiUITests;
+			productName = SwiQuiUITests;
+			productReference = 13CFA62825A2041E005CF592 /* SwiQuiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13CFA5FF25A2041B005CF592 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					13CFA60625A2041B005CF592 = {
+						CreatedOnToolsVersion = 12.2;
+						LastSwiftMigration = 1220;
+					};
+					13CFA61C25A2041E005CF592 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 13CFA60625A2041B005CF592;
+					};
+					13CFA62725A2041E005CF592 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 13CFA60625A2041B005CF592;
+					};
+				};
+			};
+			buildConfigurationList = 13CFA60225A2041B005CF592 /* Build configuration list for PBXProject "SwiQui" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13CFA5FE25A2041B005CF592;
+			productRefGroup = 13CFA60825A2041B005CF592 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13CFA60625A2041B005CF592 /* SwiQui */,
+				13CFA61C25A2041E005CF592 /* SwiQuiTests */,
+				13CFA62725A2041E005CF592 /* SwiQuiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13CFA60525A2041B005CF592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A6802025A3B98800157C61 /* quizdb.db in Resources */,
+				13CFA61725A2041E005CF592 /* LaunchScreen.storyboard in Resources */,
+				13CFA61425A2041E005CF592 /* Assets.xcassets in Resources */,
+				13CFA61225A2041B005CF592 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CFA61B25A2041E005CF592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CFA62625A2041E005CF592 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13CFA60325A2041B005CF592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13A67FE925A3A40800157C61 /* Sorular.swift in Sources */,
+				13A6800225A3A6A900157C61 /* FMDatabasePool.m in Sources */,
+				13CFA60F25A2041B005CF592 /* ViewController.swift in Sources */,
+				138C2FC625A2208700BAD626 /* NasilOynarimViewCon.swift in Sources */,
+				13A6800325A3A6A900157C61 /* FMDatabaseQueue.m in Sources */,
+				13A6801525A3B23400157C61 /* CevaplarDao.swift in Sources */,
+				13CFA60B25A2041B005CF592 /* AppDelegate.swift in Sources */,
+				138C2FCE25A233E300BAD626 /* SorularViewCon.swift in Sources */,
+				138C2FD325A26F9900BAD626 /* SonucViewCon.swift in Sources */,
+				13A67FFF25A3A6A900157C61 /* FMResultSet.m in Sources */,
+				13CFA60D25A2041B005CF592 /* SceneDelegate.swift in Sources */,
+				13A67FE425A3A38000157C61 /* Cevaplar.swift in Sources */,
+				13A6801025A3A94E00157C61 /* SorularDao.swift in Sources */,
+				13A6800125A3A6A900157C61 /* FMDatabase.m in Sources */,
+				13A6800025A3A6A900157C61 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CFA61925A2041E005CF592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFA62225A2041E005CF592 /* SwiQuiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13CFA62425A2041E005CF592 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13CFA62D25A2041E005CF592 /* SwiQuiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13CFA61F25A2041E005CF592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CFA60625A2041B005CF592 /* SwiQui */;
+			targetProxy = 13CFA61E25A2041E005CF592 /* PBXContainerItemProxy */;
+		};
+		13CFA62A25A2041E005CF592 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13CFA60625A2041B005CF592 /* SwiQui */;
+			targetProxy = 13CFA62925A2041E005CF592 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13CFA61025A2041B005CF592 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CFA61125A2041B005CF592 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13CFA61525A2041E005CF592 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13CFA61625A2041E005CF592 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13CFA62F25A2041E005CF592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13CFA63025A2041E005CF592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13CFA63225A2041E005CF592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHS43V58X6;
+				INFOPLIST_FILE = SwiQui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.mbk.SwiQui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiQui/SwiQui-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13CFA63325A2041E005CF592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KHS43V58X6;
+				INFOPLIST_FILE = SwiQui/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.mbk.SwiQui;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SwiQui/SwiQui-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13CFA63525A2041E005CF592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiQuiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.SwiQuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiQui.app/SwiQui";
+			};
+			name = Debug;
+		};
+		13CFA63625A2041E005CF592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiQuiTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.SwiQuiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiQui.app/SwiQui";
+			};
+			name = Release;
+		};
+		13CFA63825A2041E005CF592 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiQuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.SwiQuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiQui;
+			};
+			name = Debug;
+		};
+		13CFA63925A2041E005CF592 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SwiQuiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = info.SwiQuiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiQui;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13CFA60225A2041B005CF592 /* Build configuration list for PBXProject "SwiQui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CFA62F25A2041E005CF592 /* Debug */,
+				13CFA63025A2041E005CF592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CFA63125A2041E005CF592 /* Build configuration list for PBXNativeTarget "SwiQui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CFA63225A2041E005CF592 /* Debug */,
+				13CFA63325A2041E005CF592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CFA63425A2041E005CF592 /* Build configuration list for PBXNativeTarget "SwiQuiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CFA63525A2041E005CF592 /* Debug */,
+				13CFA63625A2041E005CF592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13CFA63725A2041E005CF592 /* Build configuration list for PBXNativeTarget "SwiQuiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CFA63825A2041E005CF592 /* Debug */,
+				13CFA63925A2041E005CF592 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13CFA5FF25A2041B005CF592 /* Project object */;
+}
